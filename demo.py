@@ -2,7 +2,7 @@ from fofa import Fofa
 
 if __name__=="__main1__":
     # 对应邮箱和api_key（需要有查询的权限才能够请求接口）
-    fofa=Fofa(email='zhaohaiquan@whu.edu.cn',key='48b26055a9b322a816f357607867d2f5')
+    fofa=Fofa(email='XXXX',key='XXXX')
 
     # fofa.get_data(self,query_str='',page=1,size=100,field='',full=False)
     # fofa.get_data参数：
