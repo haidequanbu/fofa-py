@@ -10,7 +10,7 @@ if __name__=="__main1__":
     # page:是否翻页，默认第一页（非必需参数）
     # size:每页查询数量，最大10000条/页
     # field:默认host,ip,port,可参考官网给的附录
-    # full:默认一年内数据，设置维True是查询所有记录
+    # full:默认一年内数据，设置为True是查询所有记录
     res=fofa.get_data(query_str='app="APPNODE"')
     if ('errmsg' in res):
         print(res)

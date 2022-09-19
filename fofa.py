@@ -41,7 +41,7 @@ class Fofa():
         params['key'] = self.key
         qbase64 = base64.b64encode(query_str.encode())
         params['qbase64'] = qbase64
-        params['field'] = field
+        params['fields'] = field
         try:
             res=requests.get(self.stats_url,params=params).json()
         except:
